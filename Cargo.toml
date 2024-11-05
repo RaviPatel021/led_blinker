@@ -1,0 +1,8 @@
+[package]
+name = "led_blinker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sysfs_gpio = "0.6.2"
+rand = "0.8"
