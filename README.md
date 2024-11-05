@@ -33,13 +33,13 @@ This project demonstrates how to create an interactive LED blinking game using R
     cd led_blinker
     ```
 
-3. Build the Project for ARM
+3. Build the Project for ARM:
     Use Cargo to build the project for the armv7-unknown-linux-gnueabihf target:
     ```bash
     cargo build --target armv7-unknown-linux-gnueabihf --release
     ```
 
-4. Deploy to BeagleBone
+4. Deploy to BeagleBone:
     Transfer the compiled binary to your BeagleBone and run it:
     ```bash
     # Copy the binary to BeagleBone (update IP address as necessary)
